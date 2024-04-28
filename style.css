@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+span, a, label {
+  display: inline-block;
+}
+
+body {
+  padding: 50px;
+  color: wheat;
+  transition: 0.2s all linear;
+}
+
+.div1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 10px 18px;
+  font-size: 20px;
+  background-color: transparent;
+  color: wheat;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: black;
+}
+
+.h4 {
+  width: 100%;
+  text-align: end;
+  margin-top: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+.sa {
+  width: 100%;
+  text-align: end;
+}
+
+.pic {
+  width: 400px;
+}
+
+.new {
+  background-color: aqua;
+  color: black;
+  transition: 0.2s all linear;
+}
+
+.big {
+  background-color: yellow;
+  transition: 0.2s all linear;
+}
+
+.foto {
+  box-shadow: 0px 0px 30px 10px green;
+  margin-right: 30px;
+  transition: 0.2s all linear;
+  transform: scale(0.8);
+  border-radius: 10px;
+}
+
+.margin {
+  padding-right: 150px;
+  color: red;
+  font-size: 25px;
+  transition: 0.2s all linear;
+  margin-top: 0;
+}/*# sourceMappingURL=style.css.map */
